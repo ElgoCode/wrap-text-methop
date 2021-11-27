@@ -2,6 +2,18 @@
 class wrap{
     public static void main(String[] args) {
         System.out.println(Wrap("hello world this is just a dummy text for testing", 4));
+        System.out.println(Wrap("h ", 4));
+        System.out.println(Wrap("hello world ", 1));
+        System.out.println(Wrap("hello world this is just a dummy text for testing", 10));
+        System.out.println(Wrap("", 4));
+        System.out.println(Wrap(" ", 4));
+        System.out.println(Wrap("      ", 4));
+        System.out.println(Wrap("hello world this is just a dummy text for testing", 0));
+        System.out.println(Wrap("hello world this", 4));
+        System.out.println(Wrap("       ", 0));
+        System.out.println(Wrap("hello", 100));
+        System.out.println(Wrap("hello world", 4));
+        System.out.println(Wrap("hi!!!", 1));
     }
 
     // start method
